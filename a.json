@@ -1,6 +1,6 @@
 [
 {
-    "dialog_visibility": "VISIBLE",
+    "dialog_visibility": "iVISIBLE",
     "min_version" : "1.0",
     "download" : "https://www.google.com",
     "dialog_title": "New Update!!",
