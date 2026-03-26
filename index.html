@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AG5 Wallpapers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: 0.3s;
+    }
+
+    header a:hover {
+      color: #00f5ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      opacity: 0.8;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 12px 30px;
+      border-radius: 30px;
+      border: none;
+      background: #00f5ff;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00c2cc;
+      transform: scale(1.05);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 60px 40px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: rgba(255,255,255,0.15);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.6;
+    }
+
+    /* Animation */
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>AG5 Wallpapers</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">Download</a>
+  </nav>
+</header>
+
+<section class="hero fade-in">
+  <h2>Stunning Wallpapers for Your Phone</h2>
+  <p>Upgrade your screen with high-quality, aesthetic wallpapers.</p>
+  <button class="btn">Download App</button>
+</section>
+
+<section class="features">
+  <div class="card fade-in">
+    <h3>🔥 HD Quality</h3>
+    <p>Enjoy crystal-clear wallpapers in high resolution.</p>
+  </div>
+
+  <div class="card fade-in">
+    <h3>🎨 Unique Designs</h3>
+    <p>Exclusive collections you won't find anywhere else.</p>
+  </div>
+
+  <div class="card fade-in">
+    <h3>⚡ Fast & Lightweight</h3>
+    <p>Optimized for speed and smooth experience.</p>
+  </div>
+
+  <div class="card fade-in">
+    <h3>🌙 Dark Mode Ready</h3>
+    <p>Perfect visuals for both day and night use.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 aneh.handsome.ag5 | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
