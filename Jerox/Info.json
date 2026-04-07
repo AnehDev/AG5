@@ -1,6 +1,6 @@
 {
     "dialog_visibility": "VISIBLE",
-    "button": "1",
+    "button": "0",
     "min_version" : "1.0",
     "download" : "https://ag6.anehgaming.shop",
     "dialog_title": "New Update!!",
