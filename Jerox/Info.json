@@ -1,12 +1,14 @@
 {
-    "dialog_visibility": "INVISIBLE",
-    "min_version" : "3.9",
-    "dialog_title": "versi terbaru telah tersedia",
-    "dialog_message": "silahkan klik update aplikasi",
-    "redirect_app": "https://youtube.com/shorts/wrtOYKSzJ6Y?si=vAuSwh1zaF9a47-o",
-    "tutor_file": "https://youtube.com/shorts/wrtOYKSzJ6Y?si=vAuSwh1zaF9a47-o",
-    "tutor_shizuku": "https://youtube.com/shorts/wrtOYKSzJ6Y?si=vAuSwh1zaF9a47-o",
-    "yt": "https://youtube.com/shorts/wrtOYKSzJ6Y?si=vAuSwh1zaF9a47-o",
-    "tiktok": "https://youtube.com/shorts/wrtOYKSzJ6Y?si=vAuSwh1zaF9a47-o",
-    "wa": "https://youtube.com/shorts/wrtOYKSzJ6Y?si=vAuSwh1zaF9a47-o"
+    "dialog_visibility": "VISIBLE",
+    "button": "1",
+    "min_version" : "1.0",
+    "download" : "https://anehgaminginjector.is-best.net/",
+    "dialog_title": "New Update!!",
+    "dialog_message": "Please update an app on playstore.",
+    "redirect_app": "https://play.google.com/store/apps/details?id=com.aneh.handsome",
+    "tutor_file": "https://vt.tiktok.com/ZSHFd8CDG/",
+    "tutor_shizuku": "https://vt.tiktok.com/ZSH623nw1/",
+    "yt": "https://youtu.be/WSBvnVDxaC4?si=muTZHNYtSLW_H2MM",
+    "tiktok": "https://vt.tiktok.com/ZSHFSAw2V/",
+    "wa": "https://chat.whatsapp.com/H45VgZbqvce7vbhXCgGGQK?mode=gi_t"
 }
