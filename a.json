@@ -2,7 +2,7 @@
 {
     "dialog_visibility": "VISIBLE",
     "button": "1",
-    "min_version" : "1.10",
+    "min_version" : "1.12",
     "download" : "https://anehgaminginjector.is-best.net/",
     "dialog_title": "New Update!!",
     "dialog_message": "Please update an app on playstore.",
