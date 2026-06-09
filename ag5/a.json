@@ -1,6 +1,6 @@
 {
     "dialog_visibility": "VISIBLE",
-    "button": "0",
+    "button": "1",
     "min_version" : "1.11",
     "download" : "https://anehdev.is-best.net/ag3.html",
     "dialog_title": "New Update!!",
