@@ -12,49 +12,81 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
         }
-        .container {
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        h1 {
+            color: #111;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
         }
-        h1 { color: #111; border-bottom: 2px solid #eaeaea; padding-bottom: 10px; }
-        h2 { color: #222; margin-top: 30px; }
-        p, li { color: #555; }
-        ul { padding-left: 20px; }
+        h2 {
+            color: #222;
+            margin-top: 30px;
+        }
+        p, li {
+            color: #444;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+            border-top: 1px solid #eaeaea;
+            padding-top: 20px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
     <h1>Privacy Policy</h1>
-    <p><strong>Last Updated: July 5, 2026</strong></p>
-    
+    <p><strong>Last Updated:</strong> July 12, 2026</p>
+
     <p>This privacy policy governs your use of the software application <strong>Ryumoto GFX</strong> ("Application") for mobile devices. The Application serves as an informational guide, providing item builds, strategies, and performance optimization tips for mobile gaming.</p>
 
-    <h2>1. Information We Collect</h2>
+    <hr>
+
+    <h2>1. Information We Collect and App Permissions</h2>
     <p>The Application does not require users to register an account or provide personally identifiable information (such as name, email address, or phone number) to use its features.</p>
-    
+
+    <h3>Advanced System Permissions & API Usage</h3>
+    <p>To provide performance optimization features, the Application utilizes advanced Android APIs and frameworks. All processing done via these mechanisms happens strictly locally on your device:</p>
+    <ul>
+        <li><strong>Storage Access Framework (SAF):</strong> We use SAF to allow you to grant permissions to specific directories for file management and optimization purposes. The Application only reads or modifies files necessary for its core functionality and does not upload your files to any external servers.</li>
+        <li><strong>Shizuku / IADB (Wireless Debugging):</strong> If enabled by the user, the Application interacts with Shizuku or utilizes Android Debug Bridge (IADB) protocols over wireless debugging to execute elevated system commands required for performance optimization. No personal data, device credentials, or system logs are collected or transmitted through these interfaces.</li>
+    </ul>
+
     <h3>Automatically Collected Information</h3>
     <p>The Application may collect certain non-personal information automatically, including, but not limited to, the type of mobile device you use, your mobile device's unique device ID, the IP address of your mobile device, your mobile operating system, and information about the way you use the Application.</p>
 
     <h2>2. Third-Party Services & Advertising (Google AdMob)</h2>
     <p>This Application utilizes third-party advertising services to fund its development. Specifically, we use <strong>Google AdMob</strong> to display advertisements.</p>
-    <p>AdMob may use tracking technologies to collect anonymized data about your device and ad interactions to serve targeted, relevant advertisements. This data may include your device's Advertising ID (e.g., Android AAID or Apple IDFA), cookies, and general location data.</p>
-    <p>For more information on how Google uses your data, please review their policy: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a>.</p>
+    <p>AdMob may use tracking technologies to collect anonymized data about your device and ad interactions to serve targeted, relevant advertisements. This data may include your device's Advertising ID (e.g., Android AAID), cookies, and general location data.</p>
+    <p>For more information on how Google uses your data, please review their policy: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a>.</p>
 
-    <h2>3. Children's Privacy</h2>
+    <h2>3. Data Security</h2>
+    <p>We value your trust in providing us access to your device's optimization layers. Because we utilize SAF, Shizuku, and IADB strictly for local operations, your system configurations remain entirely on your device. However, remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
+
+    <h2>4. Children's Privacy</h2>
     <p>We do not use the Application to knowingly solicit data from or market to children under the age of 13 (or under 16 in certain jurisdictions compliant with GDPR). If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us immediately.</p>
 
-    <h2>4. Changes to This Privacy Policy</h2>
+    <h2>5. Changes to This Privacy Policy</h2>
     <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
 
-    <h2>5. Contact Us</h2>
+    <h2>6. Contact Us</h2>
     <p>If you have any questions regarding privacy while using the Application, or have questions about our practices, please contact us via email at:</p>
-    <p><strong>[anehdevofficial@gmail.com]</strong></p>
-</div>
+    <p><a href="mailto:anehdevofficial@gmail.com">anehdevofficial@gmail.com</a></p>
+
+    <div class="footer">
+        <p>&copy; 2026 Ryumoto GFX. All rights reserved.</p>
+    </div>
 
 </body>
 </html>
