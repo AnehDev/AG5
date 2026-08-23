@@ -116,7 +116,7 @@
     </header>
 
     <section>
-        <p>At <strong>AG Tools ML</strong>, we believe privacy is a fundamental right. This policy explains how we handle data within our mobile application (package: <code>aneh.handsome.ag5</code>).</p>
+        <p>At <strong>AG Tools ML</strong>, we believe privacy is a fundamental right. This policy explains how we handle data within our mobile application (package: <code>ag.tools.ml.injector.skin</code>).</p>
     </section>
 
     <section>
@@ -130,8 +130,13 @@
 
         <div class="feature-card">
             <span class="feature-title">Shizuku & iAdb Integration</span>
-            For advanced features requiring elevated privileges, we support Shizuku and iAdb. These tools function as a bridge; our app does not store or transmit your system credentials or debug tokens to any external server. All commands are executed locally on your device.
+            For advanced features requiring elevated privileges, we support Shizuku and iAdb via local custom content providers. These tools function as a bridge; our app does not store or transmit your system credentials or debug tokens to any external server. All commands are executed locally on your device.
         </div>
+    </section>
+
+    <section>
+        <h2>Network & DNS Protection Service</h2>
+        <p>AG Tools ML includes a local <strong>DnsVpnService</strong> to route and protect DNS queries locally on your device. This service operates entirely on-device to handle DNS-over-HTTPS security. We do not log, store, or transmit your browsing history, web traffic data, or personal queries to any external servers.</p>
     </section>
 
     <section>
@@ -152,7 +157,7 @@
 
     <section>
         <h2>Security</h2>
-        <p>While no method of electronic storage is 100% secure, we follow industry best practices to protect your configuration data. By utilizing Shizuku and SAF, we leverage Android's native security model to ensure your data remains sandboxed.</p>
+        <p>While no method of electronic storage is 100% secure, we follow industry best practices to protect your configuration data. By utilizing Shizuku, SAF, and local routing frameworks, we leverage Android's native security model to ensure your data remains sandboxed.</p>
     </section>
 
     <section>
